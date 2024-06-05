@@ -13,13 +13,13 @@
 <div id="container">
     <header>
         <h1>Main Heading</h1>
-        <h2>Subheading Level 2</h2>
+        <h2 data-tooltip="I am a sub heading">Subheading Level 2</h2>
         <h3>Subheading Level 3</h3>
     </header>
 
     <section>
         <h2>Paragraphs</h2>
-        <p>This is the first paragraph. It contains some text to demonstrate how a paragraph looks on the page.</p>
+        <p>This is the <span data-tooltip="I am a word">first</span> paragraph. It contains some text to demonstrate how a paragraph looks on the page.</p>
         <p>This is the second paragraph. It also contains text to show how multiple paragraphs appear.</p>
     </section>
 
@@ -47,7 +47,7 @@
             <tr>
                 <th>Header 1</th>
                 <th>Header 2</th>
-                <th>Header 3</th>
+                <th data-tooltip="I am a table heading">Header 3</th>
             </tr>
             </thead>
             <tbody>
@@ -79,7 +79,7 @@
 
     <section>
         <h2>Inline Elements</h2>
-        <p>This paragraph includes some <strong>bold text</strong>, some <em>italic text</em>, and some <a href="#">hyperlink
+        <p>This paragraph includes some <strong>bold text</strong>, some <em>italic text</em>, and some <a data-tooltip="I am an anchor" href="#">hyperlink
             text</a>.</p>
     </section>
 

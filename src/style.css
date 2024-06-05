@@ -18,11 +18,12 @@ body {
 }
 
 *[data-tooltip] {
-    color: blue;
+    color: orangered;
     cursor: pointer;
 }
 
 #tooltipContainer {
+    display: none;
     height: 1.5em;
     position: fixed;
     top: 0;
