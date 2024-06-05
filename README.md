@@ -1,0 +1,1 @@
+Add simple tooltips on hover by adding data-tooltip attributes to any HTML element
