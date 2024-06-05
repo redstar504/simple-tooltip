@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Simple Tooltip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Main Heading</h1>
+        <h2>Subheading Level 2</h2>
+        <h3>Subheading Level 3</h3>
+    </header>
+
+    <section>
+        <h2>Paragraphs</h2>
+        <p>This is the first paragraph. It contains some text to demonstrate how a paragraph looks on the page.</p>
+        <p>This is the second paragraph. It also contains text to show how multiple paragraphs appear.</p>
+    </section>
+
+    <section>
+        <h2>Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li data-tooltip="I am a list item">List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2 data-tooltip="I am a heading">Table</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td data-tooltip="I am a cell">Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Blockquote</h2>
+        <blockquote>
+            This is a blockquote. It is used to highlight a section of text as a quotation.
+        </blockquote>
+    </section>
+
+    <section>
+        <h2>Inline Elements</h2>
+        <p>This paragraph includes some <strong>bold text</strong>, some <em>italic text</em>, and some <a href="#">hyperlink
+            text</a>.</p>
+    </section>
+
+    <footer>
+        <p>Footer content goes here. &copy; 2024</p>
+    </footer>
+</div>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

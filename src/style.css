@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 1em/1.5 Lato, serif;
+    background: #000;
+}
+
+#container {
+    min-height: 100%;
+    width: 60em;
+    margin: 0 auto;
+    background: #eee;
+    padding: 1em;
+}
+
+*[data-tooltip] {
+    color: blue;
+    cursor: pointer;
+}
+
+#tooltipContainer {
+    height: 1.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: orange;
+    padding: .125em 1.25em;
+}
